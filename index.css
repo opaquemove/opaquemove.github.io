@@ -42,18 +42,57 @@ BODY{
 }
 
 #OPAQUEMOVE_TITLE{
-    width:100%;
-    margin:0 auto;
+    margin:10px auto;
+    width:400px;
     font-size:32px;
     text-align:center;
-    color:white;
-    padding:32px 0px 32px 0px;
+    color:dimgray;
+    background-color:   white;
+    padding:8px;
+    border-radius: 8px;
+    opacity: 0.5;
+    animation-name:             fadein;
+    animation-duration:         1s;
+    animation-iteration-count:  1;
 }
 
 #CONTENT_LIST{
     margin:0 auto;
-    width:30%;
-    color:white;
+    width:400px;
+    height:200px;
+    color:dimgray;
+    background-color:   white;
     font-size:18px;
+    padding:8px;
+    border-radius: 8px;
+    opacity: 0.5;
+    animation-name:             fadein;
+    animation-duration:         1s;
+    animation-iteration-count:  1;
+}
+#CONTENT_FOOTER{
+    margin:10px auto;
+    width:400px;
+    height:70px;
+    color:dimgray;
+    background-color:   white;
+    font-size:14px;
+    padding:8px;
+    border-radius: 8px;
+    opacity: 0.5;
+    animation-name:             fadein;
+    animation-duration:         1s;
+    animation-iteration-count:  1;
+}
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(2000px);
+    }
+    to {
+        opacity: 0.5;
+        transform: translateY(0px);
+    }
+    
 }
