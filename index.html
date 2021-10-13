@@ -6,7 +6,44 @@
   <link rel="stylesheet" type="text/css" href="./index.css" />
 </head>
 <body>
+  <div id="LAYER_BACKSCREEN" class="vh-center">
+
+    <!-- <div style="position:absolute;top:36px;left:98px;
+    width:60px;height:30px;
+    background-color:rgba(82, 109, 187, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div>
+    <div style="position:absolute;top:56px;left:108px;
+    width:60px;height:30px;
+    background-color:rgba(82, 109, 187, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div>
+    <div style="position:absolute;top:76px;left:118px;
+    width:60px;height:30px;
+    background-color:rgba(115, 187, 82, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div>
+    <div style="position:absolute;top:96px;left:128px;
+    width:60px;height:30px;
+    background-color:rgba(115, 187, 82, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div>
+    <div style="position:absolute;top:116px;left:138px;
+    width:60px;height:30px;
+    background-color:rgba(187, 145, 82, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div>
+    <div style="position:absolute;top:136px;left:148px;
+    width:60px;height:30px;
+    background-color:rgba(187, 180, 82, 0.7);border-radius: 10px;
+    transform:rotate(135deg);" >
+    </div> -->
+
+    <div class="vh-center" style="width:500px;height:500px;color:#EDEDED;font-size:68px;animation:spin 40s linear infinite;" >OpaqueMove</div>
+
+  </div>
   <div id="LAYER" >
+
       <div ID="OPAQUEMOVE_ICON" >
         <div style="position:absolute;top:20px;left:10px;
             width:60px;height:30px;
@@ -58,10 +95,38 @@
 
         </div>
         <div style="float:left;width:calc(100% - 90px);padding-left:20px;">
-          OpaqueShaftは学習会場でのチェックイン、チェックアウトを管理するポートフォリオです.
+          <div>
+            OpaqueShaftは教育施設において利用者のチェックイン、チェックアウトを管理するポートフォリオです.
+          </div>
+          <div style="padding-top:20px;">
+            <p>デモサイト</p>
+            <a href="https://opaqueshaft.herokuapp.com" >https://opaqueshaft.herokuapp.com</a>
+            <p>ソースコード</p>
+            <a href="https://github.com/opaquemove/opaqueshaft" >https://github.com/opaquemove/opaqueshaft</a>
+
+          </div>
         </div>
       </div>
 
+      <div style="clear:both;width:100%;height:auto;">
+        <div style="float:left;width:60px;">
+          <button id="OM_CHECKREPORT" class="opaquemove_button"
+            style="border:2px groove gray;"  >
+            <br/><br/>check<br/>Report
+          </button>
+
+        </div>
+        <div style="float:left;width:calc(100% - 90px);padding-left:20px;">
+          <div>
+            checkReportは、EXCELファイル内の指定領域を出力するPowerShellスクリプトです.
+          </div>
+          <div style="padding-top:20px;">
+            <p>ソースコード</p>
+            <a href="https://github.com/opaquemove/checkReport" >https://github.com/opaquemove/checkReport</a>
+
+          </div>
+        </div>
+      </div>
 
     </div>
 
