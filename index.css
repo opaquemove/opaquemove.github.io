@@ -41,7 +41,7 @@ BODY{
 	background-color:		transparent;
 	padding:				0px;
 	margin:					0px;
-	overflow:				hidden;
+	overflow:				auto;
     z-index:                2;
 }
 
@@ -66,7 +66,7 @@ BODY{
     margin:10px auto;
     width:500px;
     height:90px;
-    font-size:24px;
+    font-size:14px;
     text-align:center;
     color:dimgray;
     background-color:   transparent;
@@ -81,7 +81,7 @@ BODY{
 #CONTENT_LIST{
     margin:0 auto;
     width: 500px;
-    height:200px;
+    height:auto;
     color:dimgray;
     background-color:   transparent;
     font-size:14px;
@@ -93,9 +93,9 @@ BODY{
     animation-iteration-count:  1;
 }
 #CONTENT_FOOTER{
-    margin:10px auto;
+    margin:40px auto;
     width:500px;
-    height:70px;
+    height:100px;
     color:dimgray;
     background-color:   transparent;
     font-size:14px;
